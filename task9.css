@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+
+.navbar {
+  background-color: pink;
+  padding: 10px;
+  text-align: center;
+}
+
+.container {
+  padding: 15px;
+}
+
+.books {
+  width: 15%;
+  padding: 15px;
+  background-color: black;
+  color: white;
+  border-radius: 10px;
+  margin: 15px;
+  vertical-align: top;
+}
+.books h3 {
+  color: pink;
+}
+.books button {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 10px;
+  background-color: pink;
+  color: black;
+  margin-top: 5px;
+  border: none;
+}
+
+.but {
+  color: black;
+  background-color: pink;
+  bottom: 30px;
+  right: 30px;
+  border-radius: 100%;
+  padding: 20px;
+  font-size: 40px;
+  border: none;
+  position: fixed;
+}
+
+.pop-overlay {
+  background-color: black;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0.8;
+  z-index: 1;
+  position: absolute;
+  display: none;
+}
+
+.pop-mess {
+  background-color: pink;
+  position: absolute;
+  width: 40%;
+  padding: 40px;
+  position: absolute;
+  z-index: 2;
+  border-radius: 10px;
+  left: 30%;
+  bottom: 20%;
+  display: none;
+}
+
+.pop-mess input {
+  background: transparent;
+  margin: 5px;
+  padding: 5px;
+  width: 100%;
+  border: none;
+  border-bottom: solid black 2px;
+}
+
+.pop-mess textarea {
+  margin-top: 5px;
+  margin-left: 5px;
+  width: 100%;
+  background: transparent;
+  padding-bottom: 30px;
+  border: none;
+}
+
+.pop-mess textarea::placeholder {
+  color: black;
+}
+.pop-mess ::placeholder {
+  color: black;
+}
+.pop-mess button {
+  color: white;
+  background-color: black;
+  margin-left: 5px;
+  padding: 5px;
+}
+.pop-mess input:focus {
+  outline: none;
+}
+.pop-mess textarea:focus {
+  outline: none;
+}
